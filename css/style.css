@@ -1,0 +1,111 @@
+body{
+  margin: 0 auto;
+  font-family: 'Lora', serif;
+}
+.navbar {
+  overflow: hidden;
+  background-color: rgb(74,82,90);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.brand {
+  float: right;
+  color: white;
+  height: 50px;
+  width: 250px;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  background: rgba(8, 189, 189,.3);
+  font-size: 24px;
+  padding: 25px;
+}
+.parallax {
+  background: url("clouds-daylight.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+.parallax > h1{
+  font-size: 50px;
+  color: #004BA8;
+  text-align: center;
+  margin-top: 50px;
+  padding-top: 100px;
+}
+.information {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 10px;
+}
+.distributors {
+  padding: 5px;
+}
+.offices {
+  border: 2px solid #004BA8;
+  height: 500px;
+  width: 500px;
+  padding: 20px;
+  background-color: rgba(74,82,90,.5)
+}
+.about {
+  border: 2px solid #004BA8;
+  padding: 20px;
+  height: 500px;
+  width: 500px;
+  background-color: rgba(74,82,90,.5)
+}
+.logos {
+  height: 100px;
+  width: 200px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  border:2px solid lightgrey;
+  border-radius: 2px;
+  background-color: white;
+}
+.logos > img {
+  padding: 5px;
+  border: 2px solid white;
+}
+h2 {
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+}
+p {
+  font-size: 20px;
+}
+h2, p {
+  color: white;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
