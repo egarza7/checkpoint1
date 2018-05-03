@@ -2,6 +2,7 @@ body{
   margin: 0 auto;
   font-family: 'Lora', serif;
 }
+/*Top section*/
 .navbar {
   overflow: hidden;
   background-color: rgb(74,82,90);
@@ -38,6 +39,7 @@ body{
   font-size: 24px;
   padding: 25px;
 }
+/*this took me a while to do, need to improve*/
 .parallax {
   background: url("clouds-daylight.jpg") no-repeat center;
   background-size: cover;
@@ -75,6 +77,7 @@ body{
   width: 500px;
   background-color: rgba(74,82,90,.5)
 }
+/*sort of getting the hang of flexbox, didnt have to look to much up*/
 .logos {
   height: 100px;
   width: 200px;
@@ -102,6 +105,7 @@ p {
 h2, p {
   color: white;
 }
+/*could improve on the footer*/
 .footer {
   position: relative;
   bottom: 0;
